@@ -41,7 +41,7 @@ if(isset($_POST['nome']))
                  if($u->cadastrar($nome,$telefone,$email,$senha))
                  {
                     ?>
-                    <div id="msg-secesso">
+                    <div id="msg-sucesso">
                      Cadastrado com sucesso! Acesse para entrar!   
                     </div>
                     <?php
